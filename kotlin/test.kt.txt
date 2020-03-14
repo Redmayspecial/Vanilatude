@@ -1,0 +1,18 @@
+/*
+ * Your task is to implement the indexOfMax() function so that it returns
+ * the index of the largest element in the array, or null if the array is empty.
+ */
+package maxindex
+
+fun indexOfMax(a: IntArray): Int? {
+    // set up a variable to keep track of current largest value
+    // compare each item in the list to that variable.
+    // return current largest value
+    
+    var currentLargestIndex = Null 
+    
+    for (x in a.size)
+      if (currentLargestIndex < a[x]) currentLargestIndex = x
+    
+    return 
+}
